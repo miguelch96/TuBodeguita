@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CategoriaSuite" duration-ms="24675" started-at="2018-02-06T21:24:11Z" finished-at="2018-02-06T21:24:35Z">
+    <groups>
+    </groups>
+    <test name="CategoriaWebDriverTest01" duration-ms="24675" started-at="2018-02-06T21:24:11Z" finished-at="2018-02-06T21:24:35Z">
+      <class name="pe.com.test.seleniumwd.CategoriaWebDriverTest">
+        <test-method status="PASS" signature="inicioClase(java.lang.String, int)[pri:0, instance:pe.com.test.seleniumwd.CategoriaWebDriverTest@6a41eaa2]" name="inicioClase" is-config="true" duration-ms="2908" started-at="2018-02-06T16:24:11Z" finished-at="2018-02-06T16:24:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inicioClase -->
+        <test-method status="PASS" signature="insertarCategoria(java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.CategoriaWebDriverTest@6a41eaa2]" name="insertarCategoria" duration-ms="11121" started-at="2018-02-06T16:24:14Z" data-provider="datosEntrada" finished-at="2018-02-06T16:24:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[menestra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Se guardó de manera correcta la Categoría]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertarCategoria -->
+        <test-method status="PASS" signature="insertarCategoria(java.lang.String, java.lang.String)[pri:0, instance:pe.com.test.seleniumwd.CategoriaWebDriverTest@6a41eaa2]" name="insertarCategoria" duration-ms="9855" started-at="2018-02-06T16:24:25Z" data-provider="datosEntrada" finished-at="2018-02-06T16:24:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lacteos]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Se guardó de manera correcta la Categoría]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insertarCategoria -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pe.com.test.seleniumwd.CategoriaWebDriverTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="639" started-at="2018-02-06T16:24:35Z" finished-at="2018-02-06T16:24:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pe.com.test.seleniumwd.CategoriaWebDriverTest -->
+    </test> <!-- CategoriaWebDriverTest01 -->
+  </suite> <!-- CategoriaSuite -->
+</testng-results>

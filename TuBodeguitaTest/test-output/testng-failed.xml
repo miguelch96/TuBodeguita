@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CategoriaSuite]" parallel="tests">
+  <parameter name="navegador" value="chrome"/>
+  <parameter name="rutaArchivo" value="util\DataCategoria01.xls"/>
+  <parameter name="remoto" value="0"/>
+  <parameter name="fuenteDatos" value="Excel"/>
+  <test name="CategoriaWebDriverTest01">
+    <parameter name="navegador" value="chrome"/>
+    <parameter name="rutaArchivo" value="util\DataCategoria01.xls"/>
+    <parameter name="remoto" value="0"/>
+    <parameter name="fuenteDatos" value="Excel"/>
+    <classes>
+      <class name="pe.com.test.seleniumwd.CategoriaWebDriverTest"/>
+    </classes>
+  </test> <!-- CategoriaWebDriverTest01 -->
+</suite> <!-- Failed suite [CategoriaSuite] -->
