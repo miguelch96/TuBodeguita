@@ -1,0 +1,7 @@
+version: "3"
+services:
+  web:
+    image: TuBodeguita
+    build: .
+    ports:
+      - "9500:80"
