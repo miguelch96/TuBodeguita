@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: TuBodeguita
+    image: miguelch96/tubodeguita
     build: .
     ports:
       - "9500:80"
